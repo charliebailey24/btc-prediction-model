@@ -23,14 +23,13 @@ This project implements and compares different deep learning approaches for cryp
 * Successfully beat persistence baseline RMSE (1299.10) with optimized GRU model (1294.84)
 * Demonstrated that simpler GRU architecture outperforms LSTM for this task
 * Implemented efficient GPU training pipeline
-* Thorough analysis of model behavior and performance patterns
+* Analysis of model behavior and performance patterns
 
 ## Tools & Technologies
 
 * TensorFlow 2.16.2 with GPU acceleration
 * Python data science stack (NumPy, Pandas, Matplotlib)
 * Apple M3 Max GPU optimization
-* Time series analysis and forecasting techniques
 
 ## Key Findings
 
