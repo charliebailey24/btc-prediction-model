@@ -39,15 +39,15 @@ This project implements and compares different deep learning approaches for cryp
 * Longer look-back windows (lag=45) improved prediction accuracy
 * Smaller batch sizes led to better model performance
 
+## Results
+
+Final Model Performance:
+* MAE: 817.14
+* RMSE: 1294.84 (beating persistence baseline of 1299.10)
+
 ## Future Improvements
 
 * Implement multi-step predictions for 30-day forecasting
 * Extend beyond test data for real-time predictions
 * Add additional market indicators as features
 * Implement automated trading strategies based on predictions
-
-## Results
-
-Final Model Performance:
-* MAE: 817.14
-* RMSE: 1294.84 (beating persistence baseline of 1299.10)
