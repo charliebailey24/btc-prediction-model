@@ -44,6 +44,44 @@ Final Model Performance:
 * MAE: 817.14
 * RMSE: 1294.84 (beating persistence baseline of 1299.10)
 
+## Getting Setup to View Project
+
+For a quick view, you can check out the [BTC_prediction.pdf](BTC_prediction.pdf) doc. If you would like to see the full setup and run the Deep Neural Network locally, please follow the instructions below.
+
+Note: This project was originally developed on Apple Silicon. If you're running on Windows/Linux/Intel Macs, GPU access will need to be configured differently. If GPU access is not enabled, the code will default to run on the CPU, which may result in significantly longer training times.
+
+### Prerequisites
+
+Python 3.10.x (Tensorflow Requirement)
+
+### Instructions
+
+1. Clone down the repository
+
+    `git clone https://github.com/charliebailey24/btc-prediction-model.git`
+
+2. Navigate into the project directory
+
+    `cd btc-prediction-model`
+
+3. Create and activate a virtual environment
+
+    `python -m venv .venv`
+
+    `source venv/bin/activate`
+
+4. Install dependencies
+
+    Apple Silicon:
+    `pip install -r requirements-macos.txt`
+
+    Windows/Linux/Intel Macs:
+    `pip install -r requirements.txt`
+
+5. Launch Jupyter and open the notebook
+
+    `jupyter notebook BTC_prediction.ipynb`
+
 ## Future Improvements
 
 * Implement multi-step predictions for 30-day forecasting
